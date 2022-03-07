@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Archivo de comprobación de propiedad del dominio para Microsoft 365: colocar en la raíz del sitio web",
+  "Domain": "reinventa.cl",
+  "Id": "c7f248dc-56e4-49da-8307-4e365f9b1c2d"
+}

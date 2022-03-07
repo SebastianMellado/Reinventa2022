@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/8da5ea17a8.js" crossorigin="anonymous"></script>
+    
+    <title>Contacto</title>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  </head>
+
+   <!-- Comienzo Body -->
+
+  <body>
+
+ <!--Navbar-->
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand ml-5" href="#">
+          <img src="img/reinventa-blanco.png" width="90" height="90" alt="">
+        </a>
+          <a class="navbar-brand ml-5" href="#">
+          <img src="img/gold.PNG" width="60" height="60" alt="">          
+        </a> 
+        <p style="color:#FFFFFF";>Único partner gold de InvGate en Chile</p>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav m-auto text-center">
+      <li class="nav-item active">
+      <a class="nav-link font-weight-bold text-white" href="index.html">Reinventa <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item">
+      <a class="nav-link font-weight-bold text-white" href="servicedesk.html">Service Desk</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link font-weight-bold text-white" href="assets.html">Assets</a>
+      </li>
+        <li class="nav-item">
+      <a class="nav-link font-weight-bold text-white" href="insight.html">Insight</a>
+      </li>
+      
+        <li class="nav-item">
+      <a class="nav-link font-weight-bold text-white" href="rocketbot.html">Rocketbot</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link font-weight-bold text-white" href="servicios.html">Servicios</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link font-weight-bold text-white" href="contacto.html">Contacto</a>
+      </li>
+
+
+
+      
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+<!--Fin Navbar-->
+
+<br><br><br>
+
+<!--Comienzo Formulario-->
+
+    <div class="container bg-light">
+    
+    <div class="row justify-content-center mt-5 pt-5">
+        <div class="col-md-7">
+            <h1 class="display-4 text-center">Contacto</h1>
+            <hr class="bg-primary">
+            <p class="pb-0 mb-0 text-center">Contáctanos, te responderemos a la brevedad!</p>
+            <p class="text-danger small pt-0"></p>
+
+  <div class="alert alert-succes bg-primary d-none" id= "mensajeExito">Mensaje enviado con éxito!</div>
+  <div class="alert alert-danger d-none" id="mensajeError"></div>
+
+         <form action="enviar.php" method="post">
+            <div class="row form-group">
+                <label for="nombre" class="col-form-label col-md-4">Nombre:</label>
+                <div class="col-md-8">
+                <input type="text" name="nombre" value="" id="nombre" class="form-control" required>
+             </div>
+             </div>
+            
+                 <div class="row form-group">
+                        <label for="nombre" class="col-form-label col-md-4">Empresa:</label>
+                        <div class="col-md-8">
+                        <input type="text" name="empresa" value="" id="empresa" class="form-control" required>
+                     </div>
+                     </div>
+
+                     <div class="row form-group">
+                            <label for="cargo" class="col-form-label col-md-4">Cargo:</label>
+                            <div class="col-md-8">
+                            <input type="text" name="cargo" value="" id="cargo" class="form-control" required>
+                         </div>
+                         </div>
+
+                 <div class="row form-group">
+                        <label for="phone" class="col-form-label col-md-4">Teléfono:</label>
+                        <div class="col-md-8">
+                        <input type="text" name="phone" value="" id="phone" class="form-control"required>
+                     </div>
+                     </div>
+             <div class="row form-group">
+                <label for="email" class="col-form-label col-md-4">E-mail:</label>
+                <div class="col-md-8">
+                <input type="email" name="email" value="" id="email" class="form-control" required>
+             </div>
+            </div>
+
+            <div class="row form-group">
+                    <label for="message" class="col-form-label col-md-4">Mensaje:</label>
+                    <div class="col-md-8">
+                        <textarea rows="3" class="form-control" id="mensaje" name="message" required></textarea>
+                  </div>
+                </div>
+
+                  <div style="margin-bottom: 15px;"class="g-recaptcha" data-sitekey="6LcJQlsaAAAAAKUVPOGY8Gt3zcTskvoe05ujkFI5"></div>
+
+                <button type="submit" class="btn btn-primary mb-5">Enviar</button>
+        </form>
+      </div>
+</div>
+<br>
+</div>
+
+
+<!--Fin Formulario--> 
+
+<!--Footer--> 
+
+<footer>
+  <div class="container-fluid bg-dark">
+  
+  
+   <!--Comienzo columnas footer--> 
+   <div class="container">
+  
+
+<br>
+
+<div class="row">
+  
+  <div class="col-md-3 text-white">
+    <a href="servicedesk.html"><p class="titulo-footer mt-3 font-weight-light">Service Desk</p></a>
+    <div class="centrar-lista">
+        <a href="gestiondesolicitudes.html"><li class="listar-item text-white font-weight-light">Gestión de Solicitudes</li></a>
+        <a href="gestiondeproblemas.html"><li class="listar-item text-white font-weight-light">Gestión de Problemas</li></a>
+        <a href="gestiondelcambio.html"><li class="listar-item  text-white font-weight-light">Gestión del Cambio</li></a>
+        <a href="basedeconocimiento.html"><li class="listar-item text-white font-weight-light">Base de Conocimiento</li></a>
+    </div>
+  </div>
+  
+  <div class="col-md-3 text-white">
+    <a href="assets.html"><p class="titulo-footer mt-3 font-weight-light">Assets</p></a>
+    <div class="centrar-lista">
+      <a href="assets.html"><li class="listar-item text-white font-weight-light">Inventario de Activos</li></a>
+      <a href="assets.html"><li class="listar-item text-white font-weight-light">Monitoreo de Activos</li></a>
+      <a href="assets.html"><li class="listar-item text-white font-weight-light">Software Deployment</li></a>
+      <a href="assets.html"><li class="listar-item text-white font-weight-light">Escritorio Remoto</li></a>
+    </div>
+    </div>
+  
+    <!--<div class="col-md-3 text-white">
+      <a href="paessler.html"><p class="titulo-footer mt-3 font-weight-light">PRTG Network Monitor</p></a>
+      <div class="centrar-lista">
+        <a href="https://www.es.paessler.com/monitoring-large-it-infrastructures"><li class="listar-item text-white font-weight-light">Monitoreo de Grandes Infraestructuras</li></a>
+        <a href="https://www.es.paessler.com/cloud-monitoring"><li class="listar-item text-white font-weight-light">Monitoreo Cloud</li></a>
+        <a href="https://www.es.paessler.com/database-monitoring"><li class="listar-item text-white font-weight-light">Monitoreo Bases de Datos</li></a>
+      </div>
+       </div>-->
+   
+   <div class="col-md-3 text-white">
+    <a href="servicios.html"><p class="titulo-footer mt-3 font-weight-light">Servicios</p></a>
+      <div class="centrar-lista">
+        <a href="servicios.html"><li class="listar-item text-white font-weight-light">Implementación</li></a>
+        <a href="servicios.html"><li class="listar-item text-white font-weight-light">Migraciones a Cloud</li></a>
+        <a href="servicios.html"><li class="listar-item text-white font-weight-light">Consultoría</li></a>
+        <a href="servicios.html"><li class="listar-item text-white font-weight-light">Soporte</li></a>
+             
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+  
+    <div class="col-md-3 text-white">
+      <a href="servicedesk.html"><p class="titulo-footer mt-3 font-weight-light">Insight</p></a>
+      <div class="centrar-lista">
+          <a href="insight.html#Inventario"><li class="listar-item text-white font-weight-light">Inventario Unificado</li></a>
+          <a href="insight.html" name="CMDB"><li class="listar-item text-white font-weight-light">CMDB Automatizada</li></a>
+          <a href="insight.html" name="Normalización"><li class="listar-item  text-white font-weight-light">Normalización de Software</li></a>
+          <a href="insight.html" name="Analytics"><li class="listar-item text-white font-weight-light">Analytics</li></a>
+      </div>
+    </div>
+    
+    <div class="col-md-3 text-white">
+      <a href=""><p class="titulo-footer mt-3 font-weight-light">Compara</p></a>
+    <div class="centrar-lista">
+      <a href="https://info.invgate.com/invgate-vs-manage-engine-es"><li class="listar-item text-white font-weight-light">InvGate vs Manage Engine</li></a>
+      <a href="https://info.invgate.com/invgate-vs-service-now-es"><li class="listar-item text-white font-weight-light">InvGate vs Servicenow</li></a>
+      <a href="https://info.invgate.com/invgate-vs-jira-es"><li class="listar-item text-white font-weight-light">InvGate vs Jira</li></a>
+      <a href="https://info.invgate.com/invgate-vs-bmc-es"><li class="listar-item text-white font-weight-light">InvGate vs BMC</li></a>
+      </div>
+      </div>
+    
+      <!--<div class="col-md-3 text-white">
+        <a href="paessler1.html"><p class="titulo-footer mt-3 font-weight-light">Conoce</p></a>
+        <div class="centrar-lista">
+          <a href="https://www.es.paessler.com/learn/casestudies"><li class="listar-item text-white font-weight-light">Casos de Exito</li></a>
+          <a href="contacto.html"><li class="listar-item text-white font-weight-light">Precios</li></a>
+          <a href="https://www.es.paessler.com/tools"><li class="listar-item text-white font-weight-light">Herramientas</li></a>
+          <a href="https://www.es.paessler.com/support/faqs"><li class="listar-item text-white font-weight-light">FAQ</li></a>
+          
+        </div>
+         </div>-->
+     
+     <div class="col-md-3 text-white">
+      <a href="servicios.html"> <p class="titulo-footer mt-3 font-weight-light">Productos</p></a>
+      <div class="centrar-lista">
+        <a href="servicios.html"><li class="listar-item text-white font-weight-light">App Mobile Reinventa</li></a>
+     
+      </div>
+      </div>
+    </div>
+  </div>
+    <!--Fin columnas footer--> 
+  
+   <!--Redes Sociales Footer-->
+   <br>
+  
+   <div class="verificados">
+     
+      <div class="row text-center">
+          <div class="col-md-4 mb-2">
+      <img src="./img/footer/logo_inv_cert.png" alt="" class="img-fluid">
+    </div>
+    <div class="col-md-4 mb-2">
+      <img src="./img/footer/pinkverify1.png" alt="" class="img-fluid">
+    </div>
+      <div class="col-md-4 mb-2">
+      <img src="./img/footer/conveniomarco_footer.png" alt="" class="img-fluid">
+    </div>
+    </div>
+  
+  <div class="row-12 text-center">
+   <h4 class="mt-5 pb-3 text-center text-white  font-weight-light">Síguenos en Redes Sociales</h4>
+   <a class="text-center"   href="https://www.linkedin.com/company/reinventacl"><i class="fab fa-linkedin h3 text-center text-white" ></i></a>
+  <a class="text-center"><i class="fab fa-google-plus-g h3 text-white"></i></a> 
+  
+  </div>
+  <!--Fin Redes Sociales Footer-->
+  
+  
+  <div class="text-center h6">
+      <a href=""><li class="listar-item text-white font-weight-light">Reinventa</li></a>
+      <a href=""><li class="listar-item text-white font-weight-light">Padre Mariano 10, Of. 302, Providencia</li></a>
+      <a href=""><li class="listar-item text-white font-weight-light">56-2-22332141 -22332154</li></a>
+    
+    </div>
+  
+  </div>
+          </footer>
+  <!--Fin footer-->
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZV6Z2');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZV6Z2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  </body>
+</html>
